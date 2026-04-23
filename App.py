@@ -46,3 +46,4 @@ def recommend_alternatives(brand_name, top_n=10):
     ).round(2)
 
     return alternatives.head(top_n)
+    //This demonstartes first 5 elements
